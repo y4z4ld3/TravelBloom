@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viajes de Ensueño</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Viajes de Ensueño</div>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Quiénes somos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" id="busqueda" placeholder="Buscar destinos...">
+      <button onclick="buscarDestinos()">Buscar</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Explora el mundo con nosotros</h1>
+        <p>Descubre culturas, sabores y paisajes inolvidables. Vive una experiencia que transformará tu forma de ver el mundo.</p>
+        <button class="btn-reservar">Reservar ahora</button>
+      </div>
+    </section>
+
+    <section id="resultados" class="resultados">
+      <!-- Resultados dinámicos aquí -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Síguenos en redes sociales:</p>
+    <div class="redes">
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

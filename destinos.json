@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "París",
+    "descripcion": "La ciudad del amor, llena de arte, historia y arquitectura.",
+    "imagen": "img/destino1.jpg"
+  },
+  {
+    "nombre": "Kioto",
+    "descripcion": "Descubre la tradición japonesa entre templos y jardines zen.",
+    "imagen": "img/kioto.jpg"
+  },
+  {
+    "nombre": "Machu Picchu",
+    "descripcion": "Maravilla arqueológica en las alturas de Perú.",
+    "imagen": "img/machu_picchu.jpg"
+  }
+]
